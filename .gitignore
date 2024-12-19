@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# .env files
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# NPM lock files (if you want to exclude them)
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Tailwind CSS build files
+public/
+
+# Prisma files
+prisma/migrations/
+prisma/dev.db
+
+# Next.js cache
+.next/cache/
+
+# Yarn lock file (if you're using Yarn instead of NPM)
+yarn.lock
+
+# Debugging tools (like VSCode, etc.)
+.vscode/
+*.code-workspace
+
+# Miscellaneous
+*.tgz
